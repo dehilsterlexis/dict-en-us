@@ -16,8 +16,8 @@ Short term goals for the English US dictionary:
 - gender
 - other syntactic features like count etc.
 
-## Text Repository
-The purpose of the text repository is to
+## Raw Data Repository
+The purpose of the raw data repository is to archive dictionary information in the form of the most simple text files possible. This will allow for generating difference knowledge bases for the NLP-ENGINE as dictionary processing becomes more efficient.
 
 ## Long Term Goals
 - create a dictionary where each meaning for each word is deliniated
