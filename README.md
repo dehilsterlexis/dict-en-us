@@ -1,5 +1,5 @@
 # Dictionary for US English
-The purpose of this repository is to generate, augment, and improve an English dictionary for the United States
+The purpose of this repository is to generate, augment, and improve an English dictionary for the United States for use with the [NLP ENGINE](https://github.com/VisualText/nlp-engine) 
 
 ## History
 The current dictionary what is used in the NLP Engine and by VisualText comes from [WordNet from Princeton](https://wordnet.princeton.edu/). It hasn't been updated since 2012 or there about.
