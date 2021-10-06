@@ -1,0 +1,40 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2021-8-16 21:56:37
+# MODIFIED:
+###############################################
+
+@CODE
+
+DisplayKB(G("dict"),0);
+
+L("con") = down(G("dict"));
+L("vals") = AttrValues(L("con"),"pos");
+L("last") = 0;
+
+while (L("con")) {
+	L("word") = conceptname(L("con"));
+	L("letter") = strpiece(L("word"),0,0);
+	if (!L("last") || L("letter") != L("last")) {
+		L("filename") = str(DictionaryFilename(L("word"),"pos"));
+		"filename.txt" << L("filename") << "\n";
+		L("output") = openfile(L("filename"),"app");
+		L("last") = L("letter");
+	}
+	if (L("vals")) {
+		L("output") << L("word");
+		while (L("vals")) {
+			L("output") << " " << getsval(L("vals"));
+			L("vals") = nextval(L("vals"));
+		}
+	}
+	L("con") = next(L("con"));
+	if (L("con")) {
+		L("vals") = AttrValues(L("con"),"pos");
+		if (L("vals")) L("output") << "\n";
+	}
+}
+
+@@CODE

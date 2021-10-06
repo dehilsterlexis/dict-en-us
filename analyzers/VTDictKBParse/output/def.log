@@ -1,0 +1,4 @@
+NOHASH rule: _LINE [] [] <- _xWILD [0,0 fails=( 
+)] [] _xWILD [1,1 matches=(
+ _xEND)] [] @@
+NOHASH rule: _xNIL [] [] <- _xWHITE [1,1 singlet] [] @@

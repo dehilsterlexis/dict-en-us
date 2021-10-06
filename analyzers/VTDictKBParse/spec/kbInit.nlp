@@ -1,0 +1,15 @@
+###############################################
+# FILE: kbInit
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2021-10-5 13:48:13
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("dict") = findconcept(findroot(),"dict");
+if (!G("dict")) G("dict") = makeconcept(findroot(),"dict");
+rmchildren(G("dict"));
+
+@@CODE

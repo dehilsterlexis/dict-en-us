@@ -1,0 +1,27 @@
+###############################################
+# FILE: tags
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2021-8-16 9:55:37
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+X("start") = 1;
+single();
+@RULES
+_start <- 
+	ind		### (1)
+	attr	### (2)
+	@@
+
+@POST
+X("end") = 1;
+single();
+@RULES
+_end <- 
+	end	### (1)
+	ind	### (2)
+	@@

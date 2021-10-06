@@ -1,0 +1,17 @@
+###############################################
+# FILE: value
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2021-8-16 21:54:44
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _attr _value _LINE
+
+@POST
+X("value",2) = N("word",1);
+@RULES
+_xNIL <-
+	_string
+	_xEND
+	@@
