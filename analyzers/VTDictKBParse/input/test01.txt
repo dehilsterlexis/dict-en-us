@@ -1,0 +1,77 @@
+
+ind attr
+"concept" "sys" "dict" "a" "h" "he" "hematocrits"
+0
+"concept" "sys" "dict" "a" "p" "po" "pos"
+pst
+"noun"
+end ind
+
+ind attr
+"concept" "sys" "dict" "a" "r" "ru" "run"
+0
+"concept" "sys" "dict" "a" "p" "po" "pos"
+pst
+"noun"
+end ind
+
+ind attr
+"concept" "sys" "dict" "a" "r" "ru" "run"
+0
+"concept" "sys" "dict" "a" "p" "po" "pos"
+pst
+"verb"
+end ind
+
+
+ind attr
+"concept" "sys" "dict" "a" "b" "ba" "backfires"
+0
+"concept" "sys" "dict" "a" "p" "po" "pos"
+pst
+"noun"
+end ind
+
+ind attr
+"concept" "sys" "dict" "a" "b" "ba" "backfires"
+0
+"concept" "sys" "dict" "a" "p" "po" "pos"
+pst
+"verb"
+end ind
+
+
+ind attr
+"concept" "sys" "dict" "a" "b" "ba" "backfiring"
+0
+"concept" "sys" "dict" "a" "p" "po" "pos"
+pst
+"verb"
+end ind
+
+
+ind attr
+"concept" "sys" "dict" "a" "b" "ba" "backfit"
+0
+"concept" "sys" "dict" "a" "p" "po" "pos"
+pst
+"noun"
+end ind
+
+
+ind attr
+"concept" "sys" "dict" "a" "b" "ba" "backfits"
+0
+"concept" "sys" "dict" "a" "p" "po" "pos"
+pst
+"noun"
+end ind
+
+
+ind attr
+"concept" "sys" "dict" "a" "b" "ba" "backfitted"
+0
+"concept" "sys" "dict" "a" "p" "po" "pos"
+pst
+"verb"
+end ind

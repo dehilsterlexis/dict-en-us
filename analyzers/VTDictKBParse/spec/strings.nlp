@@ -1,0 +1,20 @@
+###############################################
+# FILE: strings
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2021-8-16 21:43:53
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+S("word") = N("$text",2);
+single();
+
+@RULES
+_string <-
+	\"							### (1)
+	_xWILD [fail=(\" _xEND)]	### (2)
+	\"							### (3)
+	@@

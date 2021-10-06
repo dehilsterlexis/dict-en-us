@@ -1,0 +1,17 @@
+###############################################
+# FILE: type
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2021-8-16 21:56:15
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _attr _type _LINE
+
+@POST
+X("type",2) = N("word",1);
+@RULES
+_xNIL <-
+	_string
+	_xEND
+	@@

@@ -1,0 +1,24 @@
+###############################################
+# FILE: attrBlock
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2021-8-16 10:7:52
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@PRE
+<1,1> var("start");
+<7,7> var("end");
+
+@RULES
+_attr <-
+	_LINE							### (1)
+	_LINE [group="_concept"]		### (2)
+	_LINE							### (3)
+	_LINE [group="_attrConcept"]	### (4)
+	_LINE [group="_type"]			### (5)
+	_LINE [group="_value"]			### (6)
+	_LINE							### (7)
+	@@

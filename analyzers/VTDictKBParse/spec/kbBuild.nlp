@@ -1,0 +1,18 @@
+###############################################
+# FILE: kbBuild
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2021-8-16 21:56:37
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+L("con") = AddUniqueCon(G("dict"),N("word"));
+AddUniqueStr(L("con"),N("attribute"),N("value"));
+
+@RULES
+_xNIL <-
+	_attr	### (1)
+	@@
