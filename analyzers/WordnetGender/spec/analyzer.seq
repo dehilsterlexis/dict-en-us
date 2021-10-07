@@ -1,0 +1,6 @@
+tokenize	nil	# Gen:   Convert input to token list
+nlp	Lines	# comment
+nlp	common	# comment
+nlp	RemoveWhiteSpace	# comment
+nlp	genderWords	# comment
+nlp	output	# comment

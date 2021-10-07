@@ -1,0 +1,23 @@
+###############################################
+# FILE: common
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2021-8-17 9:32:40
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@PRE
+<2,2> lowercase();
+
+@POST
+X("word") = N("$text",3);
+"words.txt" << N("$text",3) << "\n";
+
+@RULES
+_xNIL <-
+	\{									### (1)
+	_xWHITE								### (2)
+	_xWILD [plus match=(_xALPHA \_ \-)]	### (3)
+	@@

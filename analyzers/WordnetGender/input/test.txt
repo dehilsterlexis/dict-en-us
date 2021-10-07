@@ -1,0 +1,4 @@
+{ [ taxer, verb.possession:tax,+ ] bureaucrat,@ (a bureaucrat who levies taxes) }
+{ taxi_dancer, dancer,@ (a woman employed to dance with patrons who pay a fee for each dance) }
+{ [ taxidermist, noun.cognition:taxidermy,+ ] animal_stuffer, [ stuffer, verb.change:stuff2,+ ] craftsman,@ (a craftsman who stuffs and mounts the skins of animals for display) }
+{ taxidriver, taximan, cabdriver, cabman, cabby, hack_driver, hack-driver, livery_driver, driver,@ (someone who drives a taxi for a living) }
