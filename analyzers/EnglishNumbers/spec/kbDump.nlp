@@ -1,0 +1,22 @@
+###############################################
+# FILE: kbDump
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2021-8-11 15:46:44
+# MODIFIED:
+###############################################
+
+@CODE
+
+L("file") = "numbers.numeric";
+
+L("number") = down(G("numbers"));
+addword("numeric");
+
+while (L("number")) {
+	L("name") = conceptname(L("number"));
+	L("file") << L("name") << " " << str(numval(L("number"),"numeric")) << "\n";
+	L("number") = next(L("number"));
+}
+
+@@CODE

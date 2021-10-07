@@ -1,0 +1,15 @@
+###############################################
+# FILE: kbinit
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2021-8-11 15:44:9
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("numbers") = findconcept(findroot(),"numbers");
+if (!G("numbers")) G("numbers") = makeconcept(findroot(),"numbers");
+rmchildren(G("numbers"));
+
+@@CODE
