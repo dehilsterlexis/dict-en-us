@@ -1,0 +1,25 @@
+###############################################
+# FILE: numbers
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2021-8-11 15:38:25
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+L("number") = makeconcept(G("numbers"),N("$text",4));
+addnumval(L("number"),"numeric",num(N("$text",8)));
+
+@RULES
+_number <-
+	\=		### (1)
+	\=		### (2)
+	\"		### (3)
+	_xALPHA	### (4)
+	\"		### (5)
+	\)		### (6)
+	return	### (7)
+	_xNUM	### (8)
+	@@

@@ -1,0 +1,13 @@
+###############################################
+# FILE: kbDisp
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2021-8-11 15:45:31
+# MODIFIED:
+###############################################
+
+@CODE
+
+DisplayKB(G("numbers"),1);
+
+@@CODE

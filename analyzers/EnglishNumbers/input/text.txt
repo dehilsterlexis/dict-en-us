@@ -1,0 +1,62 @@
+if (L("str") == "one")
+  return 1;
+if (L("str") == "two")
+  return 2;
+if (L("str") == "three")
+  return 3;
+if (L("str") == "four")
+  return 4;
+if (L("str") == "five")
+  return 5;
+if (L("str") == "six")
+  return 6;
+if (L("str") == "seven")
+  return 7;
+if (L("str") == "eight")
+  return 8;
+if (L("str") == "nine")
+  return 9;
+if (L("str") == "ten")
+  return 10;
+if (L("str") == "eleven")
+  return 11;
+if (L("str") == "twelve")
+  return 12;
+if (L("str") == "thirteen")
+  return 13;
+if (L("str") == "fourteen")
+  return 14;
+if (L("str") == "fifteen")
+  return 15;
+if (L("str") == "sixteen")
+  return 16;
+if (L("str") == "seventeen")
+  return 17;
+if (L("str") == "eighteen")
+  return 18;
+if (L("str") == "nineteen")
+  return 19;
+if (L("str") == "twenty")
+  return 20;
+if (L("str") == "thirty")
+  return 30;
+if (L("str") == "forty")
+  return 40;
+if (L("str") == "fifty")
+  return 50;
+if (L("str") == "sixty")
+  return 60;
+if (L("str") == "seventy")
+  return 70;
+if (L("str") == "eighty")
+  return 80;
+if (L("str") == "ninety")
+  return 90;
+if (L("str") == "hundred")
+  return 100;
+if (L("str") == "thousand")
+  return 1000;
+if (L("str") == "million")
+  return 1000000;
+if (L("str") == "billion")
+  return 1000000000;
