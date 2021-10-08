@@ -1,5 +1,9 @@
-# Dictionary for US English
-The purpose of this repository is to generate, augment, and improve an English dictionary for the United States for use with the [NLP ENGINE](https://github.com/VisualText/nlp-engine) 
+# American English Dictionary
+The purpose of this repository is to store all information for the American English Dictionary used by the[NLP ENGINE](https://github.com/VisualText/nlp-engine) including analyzers that create dictionary knowledge and an anlyzer to generate the KB for the entire dictionary (not yet implemented).
+
+There are two main folders in the repository:
+1. **Analyzers:** a repository for all analyzers that are related to this dictionary including the main analyzer that generates the final dictionary kb
+2. **Data:** the location of all the dictionary knowledge in simple text formats
 
 ## History
 The current dictionary what is used in the NLP Engine and by VisualText comes from [WordNet from Princeton](https://wordnet.princeton.edu/). It hasn't been updated since 2012 or there about.
