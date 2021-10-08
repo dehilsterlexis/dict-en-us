@@ -1,0 +1,14 @@
+{ grandchild, offspring,@ (a child of your son or daughter) }
+{ granddaughter, grandchild,@ (a female grandchild) }
+{ grand_dragon, head,@ noun.group:Ku_Klux_Klan,#m (a high ranking person in the Ku Klux Klan) }
+{ grand_duchess, duchess,@ (the wife of a grand duke or a woman holding that rank in her own right) }
+{ grand_duke, prince,@ (a prince who rules a territory) }
+{ grande_dame, dame1,@ (a middle-aged or elderly woman who is stylish and highly respected) }
+{ grandee, nobleman,@ (a nobleman of highest rank in Spain or Portugal) }
+{ grandfather, gramps, granddad, grandad, granddaddy, grandpa, grandparent,@ (the father of your father or mother) }
+{ Grand_Inquisitor, Inquisitor1,@ noun.location:Spain,;r noun.location:Portugal,;r (director of the court of Inquisition (especially in Spain and Portugal)) }
+{ grandma, grandmother, granny, grannie, gran, [ nan1, noun.location:Britain,;r ] [ nanna1, noun.location:Britain,;r ] grandparent,@ (the mother of your father or mother) }
+{ grandmaster, player1,@ (a player of exceptional or world class skill in chess or bridge) }
+{ grand_mufti, mufti,@ (the chief mufti of a district) }
+{ grandparent, forebear,@ (a parent of your father or mother) }
+{ grandson, grandchild,@ (a male grandchild) }

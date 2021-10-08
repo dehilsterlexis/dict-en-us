@@ -1,0 +1,9 @@
+{ [ lender, verb.possession:lend,+ borrower,! ] loaner, investor,@ (someone who lends money or gives credit in business matters) }
+{ leper, outcast,@ (a pariah who is avoided by others) }
+{ leper1, lazar1, sick_person,@ (a person afflicted with leprosy) }
+{ [ lepidopterist, noun.cognition:lepidoptery,+ ] lepidopterologist, butterfly_collector, entomologist,@ (an entomologist who specializes in the collection and study of butterflies and moths) }
+{ [ lesbian, adj.all:homosexual^lesbian,+ ] tribade, gay_woman, homosexual,@ (a female homosexual) }
+{ [ lessor, verb.possession:let,+ ] lease_giver, owner,@ (someone who grants a lease) }
+{ [ letter, verb.possession:let,+ ] owner,@ (owner who lets another person use something (housing usually) for hire) }
+{ [ letterer, verb.creation:letter1,+ verb.creation:letter,+ ] painter1,@ (a painter of letters) }
+{ letterman, athlete,@ (an athlete who has earned a letter in a school sport) }

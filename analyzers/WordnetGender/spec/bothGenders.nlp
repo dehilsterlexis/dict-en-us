@@ -1,0 +1,22 @@
+###############################################
+# FILE: bothGenders
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2021-10-7 21:11:54
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@PRE
+<1,1> var("word");
+<1,1> var("female");
+<1,1> var("male");
+
+@POST
+"both.txt" << N("word") << " " << N("example") << "\n";
+
+@RULES
+_xNIL <-
+	_LINE	### (1)
+	@@

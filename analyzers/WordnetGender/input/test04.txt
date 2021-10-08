@@ -1,0 +1,6 @@
+{ recorder_player, musician1,@ (someone who plays the recorder) }
+{ [ recruit, verb.social:recruit1,+ verb.competition:recruit,+ ] [ enlistee, verb.competition:enlist1,+ ] newcomer,@ (any new member or supporter (as in the armed forces)) }
+{ [ recruit1, verb.competition:recruit,+ ] military_recruit, enlisted_man,@ (a recently enlisted soldier) }
+{ [ recruiter, verb.competition:recruit,+ ] official1,@ (an official who enlists personnel for military service) }
+{ [ recruiter1, verb.social:recruit1,+ ] supplier,@ (someone who supplies members or employees) }
+{ recruiting-sergeant, sergeant1,@ recruiter,@ (a sergeant deputized to enlist recruits) }

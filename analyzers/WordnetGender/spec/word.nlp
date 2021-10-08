@@ -1,5 +1,5 @@
 ###############################################
-# FILE: word
+# FILE: common
 # SUBJ: comment
 # AUTH: David de Hilster
 # CREATED: 2021-8-17 9:32:40
@@ -18,6 +18,6 @@ X("word") = N("$text",3);
 @RULES
 _xNIL <-
 	_xSTART								### (1)
-	_xWILD [match=(\{ \[ _xWHITE)]		### (2)
+	\{									### (2)
 	_xWILD [plus match=(_xALPHA \_ \-)]	### (3)
 	@@

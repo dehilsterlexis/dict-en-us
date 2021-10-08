@@ -10,11 +10,11 @@
 
 @PRE
 <1,1> var("word");
-<1,1> var("gender");
-<1,1> lowercase();
+<1,1> var("male");
+<1,1> varz("female");
 
 @POST
-"output.txt" << N("word") << " gender " << N("gender") << "\n";
+"output.txt" << N("word") << " male\n";
 
 @RULES
 _xNIL <-

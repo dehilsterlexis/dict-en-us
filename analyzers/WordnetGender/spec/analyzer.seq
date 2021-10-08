@@ -1,6 +1,13 @@
 tokenize	nil	# Gen:   Convert input to token list
 nlp	Lines	# comment
-nlp	common	# comment
 nlp	RemoveWhiteSpace	# comment
-nlp	genderWords	# comment
-nlp	output	# comment
+nlp	brackets	# comment
+nlp	atParens	# comment
+nlp	ignores	# comment
+nlp	word	# comment
+nlp	wordBracket	# comment
+nlp	genderMale	# comment
+nlp	genderFemale	# comment
+nlp	outputMale	# comment
+nlp	outputFemale	# comment
+nlp	bothGenders	# comment
