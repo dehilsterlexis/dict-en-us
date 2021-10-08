@@ -14,6 +14,7 @@ DictionaryFilename(L("word"),L("ext")) {
 	L("last") = strrchr(L("path"),"\\");
 	L("parent") = strpiece(L("path"),0,strlength(L("last"))) + "dict\\";
 	L("filename") = L("parent") + strpiece(L("word"),0,0) + "." + L("ext");
+	"path.txt" << L("filename") << "\n";
 	return L("filename");
 }
 

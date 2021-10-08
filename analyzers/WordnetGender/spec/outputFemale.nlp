@@ -1,0 +1,22 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2021-8-17 9:36:45
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@PRE
+<1,1> var("word");
+<1,1> var("female");
+<1,1> varz("male");
+
+@POST
+"output.txt" << N("word") << " female\n";
+
+@RULES
+_xNIL <-
+	_LINE	### (1)
+	@@

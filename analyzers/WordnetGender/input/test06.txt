@@ -1,0 +1,1 @@
+{ grandma, grandmother, granny, grannie, gran, [ nan1, noun.location:Britain,;r ] [ nanna1, noun.location:Britain,;r ] grandparent,@ (the mother of your father or mother) }

@@ -1,5 +1,5 @@
 ###############################################
-# FILE: genderMale
+# FILE: genderWords
 # SUBJ: comment
 # AUTH: David de Hilster
 # CREATED: 2021-8-17 9:23:48
@@ -9,17 +9,9 @@
 @PATH _ROOT _LINE _example
 
 @POST
-X("gender",2) = "male";
+X("male",2) = 1;
 
 @RULES
 _xNIL <-
-	_xWILD [matches=(man boy male father brother uncle)]	### (1)
-	@@
-
-@POST
-X("gender",2) = "female";
-
-@RULES
-_xNIL <-
-	_xWILD [matches=(woman girl female mother sister aunt)]	 ### (1) 
+	_xWILD [one matches=(man boy male father brother uncle)]	### (1)
 	@@

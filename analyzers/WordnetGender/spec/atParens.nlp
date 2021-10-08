@@ -1,0 +1,21 @@
+###############################################
+# FILE: atParens
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2021-10-7 20:44:46
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+X("example") = N("$text",3);
+single();
+
+@RULES
+_example <-
+	\@					### (1)
+	\(					### (2)
+	_xWILD [fail=(\))]	### (3)
+	\)					### (4)
+	@@
