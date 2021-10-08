@@ -12,7 +12,7 @@ Short term goals for the English US dictionary:
 - other syntactic features like count etc.
 
 ## Text Repository
-The purpose of the text repository is to
+The purpose of the text repository is to store all the dictionary information in the simplest manner from which the KB will be generated with a special KB generator analyzer.
 
 ## Long Term Goals
 - create a dictionary where each meaning for each word is deliniated
